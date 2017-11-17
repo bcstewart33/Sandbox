@@ -10,5 +10,11 @@ public class HelloWorld {
 
         // Prints "Hello, World" to the terminal window.
         System.out.println("Hello, World");
+        Salutation ("by bryan.stewart@10xgenomics.com");
+    }
+
+    public static void Salutation (String str) {
+
+        System.out.println("Salutation: " + str);
     }
 }
