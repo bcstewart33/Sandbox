@@ -11,20 +11,28 @@ public class HelloWorld {
         // Prints "Hello, World" to the terminal window.
         System.out.println("Hello, World");
 
-        Salutation ("by bryan.stewart@10xgenomics.com");
+        salutation ("by bryan.stewart@10xgenomics.com");
 
-        Closing ("10X Genomics Inc");
+        feature (10);
+
+        closing ("10X Genomics Inc");
     }
 
     //Salutation method
-    public static void Salutation (String str) {
+    public static void salutation (String str) {
 
-        System.out.println("Salutation: " + str);
+        System.out.println("HelloWorld.salutation: " + str);
     }
 
     //Closing method
-    public static void Closing (String str) {
+    public static void closing (String str) {
 
-        System.out.println("Closing: " + str);
+        System.out.println("HelloWorld.closing: " + str);
+    }
+
+    //Feature method
+    public static void feature (Integer val) {
+
+        System.out.println("HelloWorld.feature: (" + val + ")");
     }
 }
