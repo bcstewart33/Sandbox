@@ -14,6 +14,7 @@ public class HelloWorld {
         salutation ("by bryan.stewart@10xgenomics.com");
 
         feature (10);
+        feature (100.5);
 
         closing ("10X Genomics Inc");
     }
@@ -32,6 +33,12 @@ public class HelloWorld {
 
     //Feature method
     public static void feature (Integer val) {
+
+        System.out.println("HelloWorld.feature: (" + val + ")");
+    }
+
+    //Feature method
+    public static void feature (double val) {
 
         System.out.println("HelloWorld.feature: (" + val + ")");
     }
