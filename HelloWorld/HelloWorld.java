@@ -16,11 +16,13 @@ public class HelloWorld {
         Closing ("10X Genomics Inc");
     }
 
+    //Salutation method
     public static void Salutation (String str) {
 
         System.out.println("Salutation: " + str);
     }
 
+    //Closing method
     public static void Closing (String str) {
 
         System.out.println("Closing: " + str);
