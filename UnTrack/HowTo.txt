@@ -1,0 +1,25 @@
+How to install Circle fit:
+
+0) Obtain the installation package. Unzip if necessary. 
+     a) This package contains everything needed for installation. 
+
+1) install python-2.7.X
+     a) double check to ensure that 'C:\Python27;C:\Python27\Scripts' is in the system variable path. 
+     b) restart computer before going to step 2. 
+
+2) double-click on 'Circle_Fit_Deps.bat'
+
+3) double-click OpenCV-3.1.0 to extract it.
+     a) Go to opencv/build/python/2.7/x86 folder.
+     b) Copy cv2.pyd to C:/Python27/lib/site-packages.
+
+4) restart computer
+
+5) move the directory 'Circle_Fit' to 'C:/'
+
+6) open 'C:/Circle_Fit' and right click on Circle_Fit.py, then select properties. 
+     a) 'Opens with' should be 'pythonw'. If it is not, click change, then 'browse...'. Select 'pythonw.exe' in 'C:\Python27'.
+
+7) create shortcuts for Circle_fit.py and parameters.csv
+     a) Cut and paste the shortcuts to a convenient location, such as the Desktop. 
+     b) *Optional: Change the shortcut icon to '2016_10X_Logo'
