@@ -12,3 +12,9 @@
 
 #### Vim Files
 *.swp
+
+#### Image Files
+*.png
+
+#### Sample untrack Files
+*World.txt
